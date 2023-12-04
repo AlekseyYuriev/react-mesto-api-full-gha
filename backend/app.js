@@ -10,12 +10,13 @@ const auth = require('./middlewares/auth');
 const handleError = require('./middlewares/handleError');
 const NotFoundError = require('./errors/NotFoundError');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
-const cors = require('cors');
+const cors = require('./middlewares/cors');
 
 dotenv.config();
 
 const app = express();
-app.use(cors());
+
+app.use(cors);
 
 const { PORT = 3000, MONGO_URL = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 

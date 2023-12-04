@@ -1,11 +1,14 @@
 
 const allowedCors = [
-  'https://praktikum.tk',
-  'http://praktikum.tk',
-  'localhost:3000'
+  'https://localhost:3000',
+  'http://localhost:3000',
+  'https://api.mestominsk.nomoredomainsmonster.ru',
+  'http://api.mestominsk.nomoredomainsmonster.ru',
+  'https://mestominsk.nomoredomainsmonster.ru',
+  'http://mestominsk.nomoredomainsmonster.ru'
 ];
 
-module.exports = (req, res, next) => {
+const cors = (req, res, next) => {
   const { origin } = req.headers;
   const { method } = req;
 
@@ -25,3 +28,5 @@ module.exports = (req, res, next) => {
 
   return next();
 };
+
+module.exports = cors;
