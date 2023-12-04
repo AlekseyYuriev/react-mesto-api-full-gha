@@ -83,7 +83,7 @@ class Api {
 
 //создаём экземпляр класса Api
 const api = new Api({
-   url: "https://mesto.nomoreparties.co/v1/cohort-74",
+   url: "https://api.mestominsk.nomoredomainsmonster.ru",
    headers: {
       authorization: 'dff3a039-c715-4449-a69c-ffa6fb6a81fb',
       'Content-Type': 'application/json',
