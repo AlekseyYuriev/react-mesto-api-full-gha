@@ -6,9 +6,9 @@
 
 Авторизованные пользователи могут:
 
-- загружать фотографии с подписями;
-- удалять их, если передумали;
-- ставить лайки фотографиям друг друга;
+- загружать фотографии с названием;
+- удалять их;
+- ставить лайки фотографиям всех пользователей;
 - редактировать профиль (изменять информацию о себе и аватар).
 
 
@@ -26,6 +26,6 @@
 
 ## Links to the project
 
-IP 158.160.136.77
-Frontend https://mestominsk.nomoredomainsmonster.ru
-Backend https://api.mestominsk.nomoredomainsmonster.ru/sign-up
+- IP 158.160.136.77
+- Frontend https://mestominsk.nomoredomainsmonster.ru
+- Backend https://api.mestominsk.nomoredomainsmonster.ru/sign-up
