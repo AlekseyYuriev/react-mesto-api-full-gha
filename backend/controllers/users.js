@@ -48,7 +48,7 @@ module.exports.createUser = async (req, res, next) => {
     });
     newUser = newUser.toObject();
     delete newUser.password;
-    return res.send(newUser);
+    return res.status(201).send(newUser);
   } catch (error) {
     if (error.name === 'ValidationError') {
       next(new ValidationError('Ошибка валидации полей'));
