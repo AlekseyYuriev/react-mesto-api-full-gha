@@ -28,7 +28,7 @@ function EditAvatarPopup({ isOpen, onClose, onUpdateAvatar, buttonState}) {
          message: "Поле обязательно для заполнения",
       },
       pattern: {
-         value: /^(https:|http:|www\.)\S*/gm,
+         value: /^(http(s):\/\/.)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)$/g,
          message: "Введите URL",
       },
    })

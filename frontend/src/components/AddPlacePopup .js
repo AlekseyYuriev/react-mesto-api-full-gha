@@ -56,7 +56,7 @@ function AddPlacePopup({ isOpen, onClose, onAddPlace, buttonState }) {
 
    const handleLinkChange = (e) => {
       setLink(e.target.value);
-      if(!/https?:\/\/(www)?[0-9a-z\-._~:/?#[\]@!$&'()*+,;=]+#?$/i.test(e.target.value)) {
+      if(!/^(http(s):\/\/.)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)$/g.test(e.target.value)) {
          setLinkError('Введите корректный URL');
       } else {
          setLinkError('');
