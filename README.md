@@ -26,6 +26,6 @@
 
 ## Links to the project
 
-- IP 158.160.136.77
-- Frontend https://mestominsk.nomoredomainsmonster.ru
-- Backend https://api.mestominsk.nomoredomainsmonster.ru/sign-up
+IP 158.160.136.77
+Frontend https://mestominsk.nomoredomainsmonster.ru
+Backend https://api.mestominsk.nomoredomainsmonster.ru/sign-up
