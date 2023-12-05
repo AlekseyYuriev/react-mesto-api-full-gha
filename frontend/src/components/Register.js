@@ -13,7 +13,7 @@ function Register ({ formValue, handleChange, setIsAuthComplete, setIsInfoToolti
       const { password, email } = formValue;
       MestoAuth.register(password, email)
          .then((res) => {
-            setEmail(res.data.email);
+            setEmail(res.email);
             setFormValue({ email: '', password: '' })
             navigate('/sign-in', {replace: true});
             setIsAuthComplete(true);
