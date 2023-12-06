@@ -1,5 +1,3 @@
-[![Статус тестов](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
-
 # Mesto Russia
 
 Веб-приложение для добавления/удаления фотографий, выполненный в рамках учебной проектной работы в Яндекс.Практикум.
@@ -26,6 +24,6 @@
 
 ## Links to the project
 
-IP 158.160.136.77
-Frontend https://mestominsk.nomoredomainsmonster.ru
-Backend https://api.mestominsk.nomoredomainsmonster.ru/sign-up
+- IP 158.160.136.77
+- Frontend https://mestominsk.nomoredomainsmonster.ru
+- Backend https://api.mestominsk.nomoredomainsmonster.ru/sign-up
